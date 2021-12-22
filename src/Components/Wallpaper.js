@@ -17,7 +17,7 @@ class Wallpaper  extends React.Component {
         sessionStorage.setItem('location_id', locId);
     
         axios({
-            url:` https://stormy-thicket-95822.herokuapp.com/api/restaurants/${locId}`,
+            url:` https://blooming-falls-29561.herokuapp.com/api/restaurants/${locId}`,
             method:'GET',
             headers:{'Content-Type': 'application/json'},
             
